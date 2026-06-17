@@ -19,10 +19,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 1800))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1001754457302))
+LOGGER_ID = int(getenv("LOGGER_ID",-1003511538379))
 
 # Get this value from @BRANDRD_ROBOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6258877205))
+OWNER_ID = int(getenv("OWNER_ID", 8524477758))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -32,15 +32,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO", 
-    "https://github.com/WCGKING/LOKESHXMUSIC"
+    "https://github.com/BABULXMUSIC905/RUDRA_MUSICBOT"
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BRANDED_WORLD")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/BRANDRD_BOT")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/statusdairy2")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/QueenSupportChatBot")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -78,21 +78,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/riht54.jpg"
+    "START_IMG_URL", "https://i.ibb.co/FLWvphWY/x.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL","https://files.catbox.moe/yiewaj.jpg"
+    "PING_IMG_URL","https://i.ibb.co/FLWvphWY/x.jpg"
 )
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
-STATS_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-STREAM_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
+PLAYLIST_IMG_URL = "https://i.ibb.co/FLWvphWY/x.jpg"
+STATS_IMG_URL = "https://i.ibb.co/FLWvphWY/x.jpg"
+TELEGRAM_AUDIO_URL = "https://i.ibb.co/FLWvphWY/x.jpg"
+TELEGRAM_VIDEO_URL = "https://i.ibb.co/FLWvphWY/x.jpg"
+STREAM_IMG_URL = "https://i.ibb.co/FLWvphWY/x.jpg"
+SOUNCLOUD_IMG_URL = "https://i.ibb.co/FLWvphWY/x.jpg"
+YOUTUBE_IMG_URL = "https://i.ibb.co/FLWvphWY/x.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://i.ibb.co/FLWvphWY/x.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://i.ibb.co/FLWvphWY/x.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://i.ibb.co/FLWvphWY/x.jpg"
 
 
 def time_to_seconds(time):
